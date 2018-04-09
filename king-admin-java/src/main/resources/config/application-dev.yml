@@ -2,10 +2,10 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/king-admin?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
     username: root
-    password:
-
+    password: zzl81cn
+# admin @dmin
 server:
-  port: 8080
+  port: 9001
 
 logging:
   config: classpath:logback-spring.xml
